@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>OpenMaker</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/public/css/index.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="shortcut icon" type="image/png" href="/public/img/favicon.png">
+		<script src="/public/js/jquery-3.2.1.min.js"></script>
+
+		<style>
+
+			body {
+				background: url(/public/img/background_photo.png);
+				background-size: cover;
+				background-repeat: no-repeat;
+			}
+
+		</style>
+
+	</head>
+
+
+
+
+	<body>
+		<div class="login-global-container">
+			<div class="login-container" id="login-container-id">
+				<input type="text" name="LogInUsername"  id="username-box" placeholder="Username" />
+				<input type="password" name="LogInPassword"  id="password-box-log-in" placeholder="Password" />
+				<div class="log-in-button" id="log-in-button-id"><p id="log-in-text">Log in</p></div>
+
+				<div class="login-error-message" id="login-error-message-id">
+					<p>{{login_error_message}}</p>
+				</div>
+
+				<div><a href="http://127.0.0.1:8888/login">Forgot password?</a></div>
+				<img src="/public/img/OpenMaker.png" alt="logo">
+			</div>
+		</div>
+
+
+		
+
+
+
+		<div class="register-container" id="register-container-id">
+
+
+			<div class="into-messages-container" id="into-messages-container-id">
+				<p id="intro-message-1">Join the world`s largest professional <br/> Open Hardware platform.</p>
+				<p id="intro-message-2">Get started - it`s free.</p>
+			</div>
+
+			<p id="register-header">Create an account</p>
+			<input type="text"  name="RegisterFirstname" id="fname-box" placeholder="First name" />
+			<input type="text"  name="RegisterLastname" id="lname-box" placeholder="Last name" />
+			<input type="text"  name="RegisterEmail" id="email-box" placeholder="Email address" />
+			<input type="text"  name="RegisterUsername" id="username-box-register" placeholder="Username" />
+			<input type="password" name="RegisterPassword"  id="password-box-register" placeholder="Password (6 or more charachters)" />
+			<p id="register-footer">By clicking Register, you agree to the OpenMaker User Agreement, Privacy Policy, and Cookie Policy.</p>
+			<div class="register-button" id="register-button-id"> <p id="reg-text">Register</p></div>
+			<div class="register-error-message" id="register-error-message-id">
+				<p>{{register_error_message}}</p>
+			</div>
+		</div>
+
+
+
+
+		<form id="fake-log-in-form" action="/login" method="post" style="display:none;">
+		  <input id="fake-plain-auth-pair-id" type="text" name="plain_auth_pair" value="">
+		  <input type="submit" value="Submit">
+		</form>
+
+		<form id="fake-register-form" action="/register" method="post" style="display:none;">
+		  <input id="fake-register-id" type="text" name="plain_register_sequence" value="">
+		  <input type="submit" value="Submit">
+		</form>
+
+
+
+		<script>
+
+			$(document).ready( function(){
+
+				$(".log-in-button").click( function(){
+					var invalid=false;
+					var LogInUsername=$("input[name=LogInUsername]").val();
+					var LogInPassword=$("input[name=LogInPassword]").val();
+					var plain_auth_pair=LogInUsername+":"+LogInPassword;
+
+					if ( LogInUsername=="" || LogInPassword=="" ) {invalid=true;}
+					if (!invalid){
+						$("#fake-plain-auth-pair-id").val(plain_auth_pair)
+						$("#fake-log-in-form").submit()
+					} else {
+						alert("Log in fields can not be Empty.")
+					}
+
+
+
+				})
+
+				$(".register-button").click( function(){
+					var invalid=false;
+					var RegisterFirstname=$("input[name=RegisterFirstname]").val();
+					var RegisterLastname=$("input[name=RegisterLastname]").val();
+					var RegisterEmail=$("input[name=RegisterEmail]").val();
+					var RegisterUsername=$("input[name=RegisterUsername]").val();
+					var RegisterPassword=$("input[name=RegisterPassword]").val();
+					var plain_register_sequence=RegisterFirstname+":"+RegisterLastname+":"+RegisterEmail+":"+RegisterUsername+":"+RegisterPassword;
+
+					if ( RegisterFirstname=="" || RegisterLastname=="" || RegisterEmail=="" || RegisterUsername=="" || RegisterPassword=="" ) {invalid=true;}
+					if (!invalid){
+						$("#fake-register-id").val(plain_register_sequence)
+						$("#fake-register-form").submit()	
+					} else {
+						alert("Registration fields can not be Empty.")
+					}
+
+
+
+				})
+
+
+
+			})
+
+		</script>
+
+
+	</body>
+
+
+
+
+</html>

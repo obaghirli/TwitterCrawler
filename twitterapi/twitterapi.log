@@ -1,0 +1,1334 @@
+2017-07-11 19:11:07,167 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 19:11:07,167 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 19:11:07,168 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 19:11:07,174 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 19:11:07,949 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 19:11:07,951 - WARNING - ----------Adding Sources...
+2017-07-11 19:11:07,951 - WARNING - Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-11 19:11:44,800 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 19:11:44,801 - WARNING - Done with Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-11 19:11:44,801 - WARNING - Adding Source: db_name: RaspberryPi: track_item: raspberry pi ...
+2017-07-11 19:12:21,108 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 19:12:21,109 - WARNING - Done with Adding Source: db_name: RaspberryPi: track_item: raspberry pi ...
+2017-07-11 19:12:21,109 - WARNING - Adding Source: db_name: 3DPrinter: track_item: 3d printer ...
+2017-07-11 19:12:48,561 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 19:12:48,562 - WARNING - Done with Adding Source: db_name: 3DPrinter: track_item: 3d printer ...
+2017-07-11 19:12:48,562 - WARNING - Adding Source: db_name: 3DPrinter: track_item: 3d print ...
+2017-07-11 19:13:21,118 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 19:13:21,118 - WARNING - Done with Adding Source: db_name: 3DPrinter: track_item: 3d print ...
+2017-07-11 19:13:21,120 - WARNING - Adding Sources: All Done!
+2017-07-11 19:13:21,121 - WARNING - ----------Adding Followers ...
+2017-07-11 19:13:21,133 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235579
+2017-07-11 19:13:28,514 - WARNING - [followers/ids] Sleeping in safe mode for 895 seconds
+2017-07-11 19:28:23,552 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-11 19:28:30,872 - WARNING - [followers/ids] Sleeping in safe mode for 895 seconds
+2017-07-11 19:43:25,935 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-11 19:43:33,345 - WARNING - [followers/ids] Sleeping in safe mode for 895 seconds
+2017-07-11 19:58:28,359 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-11 19:58:33,832 - WARNING - Done with Adding Followers of source: arduino in db_name: Arduino
+2017-07-11 19:58:33,833 - WARNING - Adding Followers of source: arduino_patulli in db_name: Arduino Followers count: 253
+2017-07-11 19:58:34,090 - WARNING - This is OK! "Error message: Twitter API: Protected [followers/ids] Error code: 401 Details: {u'request': u'/1.1/followers/ids.json', u'error': u'Not authorized.'}"
+2017-07-11 19:58:34,090 - WARNING - Done with Adding Followers of source: arduino_patulli in db_name: Arduino
+2017-07-11 19:58:34,090 - WARNING - Adding Followers of source: planetarduino in db_name: Arduino Followers count: 21333
+2017-07-11 19:58:35,805 - WARNING - [followers/ids] Sleeping in safe mode for 895 seconds
+2017-07-11 20:13:30,879 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-11 20:13:31,894 - WARNING - Done with Adding Followers of source: planetarduino in db_name: Arduino
+2017-07-11 20:13:31,894 - WARNING - Adding Followers of source: TheArduinoGuy in db_name: Arduino Followers count: 5872
+2017-07-11 20:13:32,800 - WARNING - Done with Adding Followers of source: TheArduinoGuy in db_name: Arduino
+2017-07-11 20:13:32,800 - WARNING - Adding Followers of source: ArduinoOrg in db_name: Arduino Followers count: 3584
+2017-07-11 20:13:33,272 - WARNING - Done with Adding Followers of source: ArduinoOrg in db_name: Arduino
+2017-07-11 20:13:33,272 - WARNING - Adding Followers of source: arduinopraxis in db_name: Arduino Followers count: 3184
+2017-07-11 20:13:33,723 - WARNING - Done with Adding Followers of source: arduinopraxis in db_name: Arduino
+2017-07-11 20:13:33,724 - WARNING - Adding Followers of source: Arduino24x7 in db_name: Arduino Followers count: 6601
+2017-07-11 20:13:34,659 - WARNING - Done with Adding Followers of source: Arduino24x7 in db_name: Arduino
+2017-07-11 20:13:34,659 - WARNING - Adding Followers of source: arduinoarts in db_name: Arduino Followers count: 5837
+2017-07-11 20:13:35,522 - WARNING - Done with Adding Followers of source: arduinoarts in db_name: Arduino
+2017-07-11 20:13:35,522 - WARNING - Adding Followers of source: OfficineArduino in db_name: Arduino Followers count: 1279
+2017-07-11 20:13:35,847 - WARNING - Done with Adding Followers of source: OfficineArduino in db_name: Arduino
+2017-07-11 20:13:35,847 - WARNING - Adding Followers of source: arduino_fans in db_name: Arduino Followers count: 6062
+2017-07-11 20:13:36,747 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-11 20:28:33,844 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-11 20:28:33,875 - WARNING - Done with Adding Followers of source: arduino_fans in db_name: Arduino
+2017-07-11 20:28:33,875 - WARNING - Adding Followers of source: ArduinoHandbook in db_name: Arduino Followers count: 5417
+2017-07-11 20:28:34,725 - WARNING - Done with Adding Followers of source: ArduinoHandbook in db_name: Arduino
+2017-07-11 20:28:34,726 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128058
+2017-07-11 20:28:41,067 - WARNING - [followers/ids] Sleeping in safe mode for 894 seconds
+2017-07-11 20:31:39,831 - WARNING - Keyboard Interrupt
+
+2017-07-11 20:40:18,820 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 20:40:18,820 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 20:40:18,820 - WARNING - Depleted End Points: followers/ids
+2017-07-11 20:40:18,820 - WARNING - Please wait 197 seconds untill All End Points clear ...
+2017-07-11 20:40:18,821 - WARNING - Sleeping in safe mode for 197 seconds
+2017-07-11 20:43:35,825 - WARNING - All End Points are now clear. Ready to go!
+2017-07-11 20:43:35,831 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 20:43:36,686 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 20:43:36,688 - WARNING - ----------Adding Sources...
+2017-07-11 20:43:36,688 - WARNING - Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-11 20:44:12,272 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 20:44:12,273 - WARNING - Done with Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-11 20:44:12,273 - WARNING - Adding Source: db_name: RaspberryPi: track_item: raspberry pi ...
+2017-07-11 20:44:48,466 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 20:44:48,467 - WARNING - Done with Adding Source: db_name: RaspberryPi: track_item: raspberry pi ...
+2017-07-11 20:44:48,467 - WARNING - Adding Source: db_name: 3DPrinter: track_item: 3d printer ...
+2017-07-11 20:45:15,198 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 20:45:15,198 - WARNING - Done with Adding Source: db_name: 3DPrinter: track_item: 3d printer ...
+2017-07-11 20:45:15,198 - WARNING - Adding Source: db_name: 3DPrinter: track_item: 3d print ...
+2017-07-11 20:45:47,677 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 20:45:47,678 - WARNING - Done with Adding Source: db_name: 3DPrinter: track_item: 3d print ...
+2017-07-11 20:45:47,679 - WARNING - Adding Sources: All Done!
+2017-07-11 20:45:47,680 - WARNING - ----------Adding Followers ...
+2017-07-11 20:45:47,693 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235590
+2017-07-11 20:50:41,514 - WARNING - [users/show] Sleeping in safe mode for 609 seconds
+2017-07-11 21:00:50,603 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-11 21:05:54,229 - WARNING - [users/show] Sleeping in safe mode for 598 seconds
+2017-07-11 21:15:52,235 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-11 21:21:05,310 - WARNING - [users/show] Sleeping in safe mode for 589 seconds
+2017-07-11 21:30:54,376 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-11 21:36:26,596 - WARNING - [users/show] Sleeping in safe mode for 570 seconds
+2017-07-11 21:45:56,615 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-11 21:51:28,215 - WARNING - [users/show] Sleeping in safe mode for 570 seconds
+2017-07-11 22:00:58,287 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-11 22:04:54,755 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-11 22:05:03,036 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-11 22:06:33,544 - WARNING - [users/show] Sleeping in safe mode for 567 seconds
+2017-07-11 22:16:00,644 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-11 22:16:26,400 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-11 22:17:31,021 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-11 22:17:55,019 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-11 22:20:42,448 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-11 22:21:36,778 - WARNING - [users/show] Sleeping in safe mode for 566 seconds
+2017-07-11 22:31:02,850 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-11 22:31:03,007 - ERROR - Unknown Error [main]
+
+2017-07-11 22:52:07,576 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 22:52:07,576 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 22:52:07,576 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 22:52:07,584 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 22:52:13,372 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 22:52:13,373 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-11 22:52:13,375 - WARNING - ----------Resume: Adding Followers ...
+2017-07-11 22:52:13,388 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235590
+2017-07-11 22:57:27,733 - WARNING - [users/show] Sleeping in safe mode for 589 seconds
+2017-07-11 23:06:39,135 - WARNING - Keyboard Interrupt
+
+2017-07-11 23:07:42,400 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:07:42,401 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:07:42,401 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:07:42,409 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:07:43,164 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:07:43,166 - WARNING - ----------Adding Sources...
+2017-07-11 23:07:43,166 - WARNING - Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-11 23:07:45,923 - WARNING - Keyboard Interrupt
+
+2017-07-11 23:07:51,303 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:07:51,304 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:07:51,304 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:07:51,310 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:07:52,067 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:07:52,068 - WARNING - ----------Resume: Adding Sources...
+2017-07-11 23:07:52,069 - WARNING - Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-11 23:07:53,308 - WARNING - Keyboard Interrupt
+
+2017-07-11 23:10:45,228 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:10:45,228 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:10:45,228 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:10:45,234 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:10:46,076 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:10:46,078 - WARNING - ----------Resume: Adding Sources...
+2017-07-11 23:10:46,078 - WARNING - Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-11 23:11:21,074 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 23:11:21,074 - WARNING - Done with Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-11 23:11:21,074 - WARNING - Adding Source: db_name: RaspberryPi: track_item: raspberry pi ...
+2017-07-11 23:11:56,544 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 23:11:56,544 - WARNING - Done with Adding Source: db_name: RaspberryPi: track_item: raspberry pi ...
+2017-07-11 23:11:56,545 - WARNING - Adding Source: db_name: 3DPrinter: track_item: 3d printer ...
+2017-07-11 23:12:25,077 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 23:12:25,078 - WARNING - Done with Adding Source: db_name: 3DPrinter: track_item: 3d printer ...
+2017-07-11 23:12:25,078 - WARNING - Adding Source: db_name: 3DPrinter: track_item: 3d print ...
+2017-07-11 23:12:58,137 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-11 23:12:58,138 - WARNING - Done with Adding Source: db_name: 3DPrinter: track_item: 3d print ...
+2017-07-11 23:12:58,139 - WARNING - Adding Sources: All Done!
+2017-07-11 23:12:58,140 - WARNING - ----------Adding Followers ...
+2017-07-11 23:12:58,152 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235605
+2017-07-11 23:13:58,624 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:13:58,624 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:13:58,624 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:13:58,632 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:13:59,374 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:13:59,376 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-11 23:13:59,377 - WARNING - ----------Adding Followers ...
+2017-07-11 23:13:59,391 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235605
+2017-07-11 23:15:08,878 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:15:08,879 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:15:08,879 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:15:08,885 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:15:09,629 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:15:09,631 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-11 23:15:09,632 - WARNING - ----------Adding Followers ...
+2017-07-11 23:15:09,644 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235605
+2017-07-11 23:16:10,419 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:16:10,419 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:16:10,420 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:16:10,427 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:16:11,274 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:16:11,276 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-11 23:16:11,277 - WARNING - ----------Adding Followers ...
+2017-07-11 23:16:11,290 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235605
+2017-07-11 23:18:45,163 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:18:45,163 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:18:45,164 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:18:45,171 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:18:46,110 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:18:46,111 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-11 23:18:46,112 - WARNING - ----------Adding Followers ...
+2017-07-11 23:18:46,126 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235605
+2017-07-11 23:25:47,205 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:25:47,205 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:25:47,205 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:25:47,213 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:25:48,002 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:25:48,004 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-11 23:25:48,005 - WARNING - ----------Adding Followers ...
+2017-07-11 23:25:48,017 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235605
+2017-07-11 23:26:17,243 - WARNING - Keyboard Interrupt
+
+2017-07-11 23:26:20,305 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:26:20,305 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:26:20,306 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:26:20,312 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:26:21,149 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:26:21,151 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-11 23:26:21,152 - WARNING - ----------Resume: Adding Followers ...
+2017-07-11 23:26:21,165 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235605
+2017-07-11 23:26:27,247 - WARNING - Keyboard Interrupt
+
+2017-07-11 23:28:46,451 - WARNING - ----------New Twitter API Session Opened
+2017-07-11 23:28:46,452 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-11 23:28:46,452 - WARNING - All End Points are clear. Ready to go!
+2017-07-11 23:28:46,458 - WARNING - MongoDB: started at: localhost:27017
+2017-07-11 23:28:47,263 - WARNING - Twitter API: Authentication: Success!
+2017-07-11 23:28:47,265 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-11 23:28:47,266 - WARNING - ----------Resume: Adding Followers ...
+2017-07-11 23:28:47,278 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235605
+2017-07-11 23:28:50,423 - WARNING - Keyboard Interrupt
+
+2017-07-12 00:31:07,459 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 00:31:07,459 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 00:31:07,459 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 00:31:07,464 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 00:31:08,815 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 00:31:08,817 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 00:31:08,818 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 00:31:08,830 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235605
+2017-07-12 00:31:14,882 - WARNING - Keyboard Interrupt
+
+2017-07-12 00:31:41,081 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 00:31:41,082 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 00:31:41,082 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 00:31:41,087 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 00:31:42,454 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 00:31:42,456 - WARNING - ----------Adding Sources...
+2017-07-12 00:31:42,456 - WARNING - Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-12 00:32:03,527 - WARNING - Keyboard Interrupt
+
+2017-07-12 00:32:05,877 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 00:32:05,878 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 00:32:05,878 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 00:32:05,883 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 00:32:06,835 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 00:32:06,837 - WARNING - ----------Resume: Adding Sources...
+2017-07-12 00:32:06,837 - WARNING - Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-12 00:32:28,999 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-12 00:32:28,999 - WARNING - Done with Adding Source: db_name: Arduino: track_item: arduino ...
+2017-07-12 00:32:29,000 - WARNING - Adding Source: db_name: RaspberryPi: track_item: raspberry pi ...
+2017-07-12 00:33:16,359 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-12 00:33:16,360 - WARNING - Done with Adding Source: db_name: RaspberryPi: track_item: raspberry pi ...
+2017-07-12 00:33:16,360 - WARNING - Adding Source: db_name: 3DPrinter: track_item: 3d printer ...
+2017-07-12 00:33:53,155 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-12 00:33:53,155 - WARNING - Done with Adding Source: db_name: 3DPrinter: track_item: 3d printer ...
+2017-07-12 00:33:53,156 - WARNING - Adding Source: db_name: 3DPrinter: track_item: 3d print ...
+2017-07-12 00:36:03,305 - WARNING - This is OK! "Error message: Twitter API: No more pages [users/search] Error code: 400 Details: [{u'message': u'Invalid value 52 for parameter page parameter is invalid.', u'code': 44}]"
+2017-07-12 00:36:03,305 - WARNING - Done with Adding Source: db_name: 3DPrinter: track_item: 3d print ...
+2017-07-12 00:36:03,306 - WARNING - Adding Sources: All Done!
+2017-07-12 00:36:03,307 - WARNING - ----------Adding Followers ...
+2017-07-12 00:36:03,320 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 00:36:14,586 - WARNING - Keyboard Interrupt
+
+2017-07-12 00:36:23,490 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 00:36:23,490 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 00:36:23,491 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 00:36:23,498 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 00:36:29,417 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 00:36:29,419 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 00:36:29,420 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 00:36:29,433 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 00:39:37,655 - WARNING - Keyboard Interrupt
+
+2017-07-12 00:39:39,563 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 00:39:39,564 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 00:39:39,564 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 00:39:39,570 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 00:39:40,543 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 00:39:40,544 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 00:39:40,545 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 00:39:40,560 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 00:45:04,075 - WARNING - [users/show] Sleeping in safe mode for 67 seconds
+2017-07-12 00:46:11,078 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 00:47:03,421 - WARNING - Keyboard Interrupt
+
+2017-07-12 00:48:14,734 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 00:48:14,734 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 00:48:14,734 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 00:48:14,740 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 00:48:15,475 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 00:48:15,477 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 00:48:15,478 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 00:48:15,496 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 00:48:28,543 - WARNING - Keyboard Interrupt
+
+2017-07-12 00:50:49,169 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 00:50:49,170 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 00:50:49,170 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 00:50:49,176 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 00:50:49,930 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 00:50:49,932 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 00:50:49,933 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 00:50:49,950 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 00:50:57,184 - WARNING - Keyboard Interrupt
+
+2017-07-12 00:51:10,719 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 00:51:10,720 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 00:51:10,720 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 00:51:10,726 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 00:51:11,500 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 00:51:11,503 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 00:51:11,504 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 00:51:11,520 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 00:51:30,440 - WARNING - Keyboard Interrupt
+
+2017-07-12 00:51:32,065 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 00:51:32,065 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 00:51:32,065 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 00:51:32,071 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 00:51:34,684 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 00:51:34,686 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 00:51:34,687 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 00:51:34,702 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 00:55:16,928 - WARNING - [users/show] Sleeping in safe mode for 357 seconds
+2017-07-12 01:01:13,932 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 01:06:06,696 - WARNING - Keyboard Interrupt
+
+2017-07-12 01:06:08,612 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 01:06:08,612 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 01:06:08,612 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 01:06:08,618 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 01:06:09,381 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 01:06:09,383 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 01:06:09,384 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 01:06:09,396 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 01:06:38,101 - WARNING - [users/show] Sleeping in safe mode for 578 seconds
+2017-07-12 01:16:16,185 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 01:20:43,436 - WARNING - Keyboard Interrupt
+
+2017-07-12 01:20:45,478 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 01:20:45,478 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 01:20:45,479 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 01:20:45,486 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 01:20:46,234 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 01:20:46,236 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 01:20:46,237 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 01:20:46,249 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 01:21:13,891 - WARNING - [users/show] Sleeping in safe mode for 605 seconds
+2017-07-12 01:31:18,892 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 01:36:39,831 - WARNING - Keyboard Interrupt
+
+2017-07-12 01:36:42,436 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 01:36:42,436 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 01:36:42,436 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 01:36:42,442 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 01:36:43,184 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 01:36:43,185 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 01:36:43,186 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 01:36:43,198 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 01:37:44,134 - WARNING - [users/show] Sleeping in safe mode for 517 seconds
+2017-07-12 01:46:21,146 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 01:50:07,235 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 01:50:14,520 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 01:51:15,780 - WARNING - [users/show] Sleeping in safe mode for 608 seconds
+2017-07-12 02:01:23,786 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 02:02:03,743 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 02:03:01,486 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 02:03:23,170 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 02:05:52,236 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 02:06:22,826 - WARNING - [users/show] Sleeping in safe mode for 603 seconds
+2017-07-12 02:16:25,913 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 02:21:30,100 - WARNING - [users/show] Sleeping in safe mode for 598 seconds
+2017-07-12 02:31:28,193 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 02:32:13,949 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 02:32:26,549 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 02:36:34,841 - WARNING - [users/show] Sleeping in safe mode for 596 seconds
+2017-07-12 02:46:30,940 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 02:50:24,372 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 02:50:46,458 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 02:51:40,124 - WARNING - [users/show] Sleeping in safe mode for 593 seconds
+2017-07-12 03:01:33,145 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 03:01:48,747 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 03:01:57,837 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 03:06:43,901 - WARNING - [users/show] Sleeping in safe mode for 592 seconds
+2017-07-12 03:16:35,910 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 03:21:46,340 - WARNING - [users/show] Sleeping in safe mode for 592 seconds
+2017-07-12 03:31:38,425 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 03:37:03,800 - WARNING - [users/show] Sleeping in safe mode for 577 seconds
+2017-07-12 03:46:40,896 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 03:51:56,723 - WARNING - [users/show] Sleeping in safe mode for 587 seconds
+2017-07-12 04:01:43,813 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 04:07:09,590 - WARNING - [users/show] Sleeping in safe mode for 576 seconds
+2017-07-12 04:16:45,623 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 04:16:57,616 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 04:17:49,431 - WARNING - Keyboard Interrupt
+
+2017-07-12 13:39:18,537 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 13:39:18,576 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 13:39:18,576 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 13:39:18,583 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 13:39:19,789 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 13:39:19,791 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 13:39:19,823 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 13:39:19,909 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 13:44:59,415 - WARNING - [users/show] Sleeping in safe mode for 566 seconds
+2017-07-12 13:54:25,445 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 14:00:06,033 - WARNING - [users/show] Sleeping in safe mode for 561 seconds
+2017-07-12 14:09:27,133 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 14:14:55,412 - WARNING - [users/show] Sleeping in safe mode for 574 seconds
+2017-07-12 14:24:29,509 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 14:28:46,792 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 14:30:13,562 - WARNING - [users/show] Sleeping in safe mode for 558 seconds
+2017-07-12 14:39:31,660 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 14:45:27,146 - WARNING - [users/show] Sleeping in safe mode for 546 seconds
+2017-07-12 14:54:33,202 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 15:00:42,578 - WARNING - [users/show] Sleeping in safe mode for 533 seconds
+2017-07-12 15:09:35,588 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 15:15:36,760 - WARNING - [users/show] Sleeping in safe mode for 541 seconds
+2017-07-12 15:24:37,792 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 15:30:11,203 - WARNING - [users/show] Sleeping in safe mode for 568 seconds
+2017-07-12 15:39:39,250 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 15:45:07,631 - WARNING - [users/show] Sleeping in safe mode for 574 seconds
+2017-07-12 15:54:41,640 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 16:00:11,801 - WARNING - [users/show] Sleeping in safe mode for 572 seconds
+2017-07-12 16:09:43,902 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 16:15:17,260 - WARNING - [users/show] Sleeping in safe mode for 569 seconds
+2017-07-12 16:24:46,349 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 16:29:18,047 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 16:30:19,632 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-12 16:37:28,601 - WARNING - [users/show] Sleeping in safe mode for 566 seconds
+2017-07-12 16:46:54,658 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 16:53:16,917 - WARNING - [users/show] Sleeping in safe mode for 520 seconds
+2017-07-12 17:01:56,923 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 19:08:55,359 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 19:08:55,360 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 19:08:55,360 - WARNING - All End Points are clear. Ready to go!
+2017-07-12 19:08:55,365 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 19:08:56,140 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 19:08:56,142 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 19:08:56,143 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 19:08:56,156 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 19:15:00,761 - WARNING - [users/show] Sleeping in safe mode for 542 seconds
+2017-07-12 19:22:15,001 - WARNING - Keyboard Interrupt
+
+2017-07-12 19:22:17,889 - WARNING - ----------New Twitter API Session Opened
+2017-07-12 19:22:17,890 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-12 19:22:17,890 - WARNING - Depleted End Points: users/show
+2017-07-12 19:22:17,890 - WARNING - Please wait 105 seconds untill All End Points clear ...
+2017-07-12 19:22:17,890 - WARNING - Sleeping in safe mode for 105 seconds
+2017-07-12 19:24:02,938 - WARNING - All End Points are now clear. Ready to go!
+2017-07-12 19:24:02,945 - WARNING - MongoDB: started at: localhost:27017
+2017-07-12 19:24:03,713 - WARNING - Twitter API: Authentication: Success!
+2017-07-12 19:24:03,714 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-12 19:24:03,716 - WARNING - ----------Resume: Adding Followers ...
+2017-07-12 19:24:03,729 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-12 19:31:00,573 - WARNING - [users/show] Sleeping in safe mode for 488 seconds
+2017-07-12 19:39:08,653 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 19:45:20,642 - WARNING - [users/show] Sleeping in safe mode for 530 seconds
+2017-07-12 19:54:10,651 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 20:01:33,111 - WARNING - [users/show] Sleeping in safe mode for 459 seconds
+2017-07-12 20:09:12,201 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 20:15:43,551 - WARNING - This is OK! No JSON object could be decoded
+2017-07-12 20:16:12,747 - WARNING - [users/show] Sleeping in safe mode for 482 seconds
+2017-07-12 20:24:14,752 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 20:30:39,633 - WARNING - [users/show] Sleeping in safe mode for 518 seconds
+2017-07-12 20:39:17,725 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 20:45:33,905 - WARNING - [users/show] Sleeping in safe mode for 526 seconds
+2017-07-12 20:54:19,972 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 21:01:15,424 - WARNING - [users/show] Sleeping in safe mode for 487 seconds
+2017-07-12 21:09:22,432 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 21:15:47,224 - WARNING - [users/show] Sleeping in safe mode for 517 seconds
+2017-07-12 21:24:24,325 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 21:30:44,224 - WARNING - [users/show] Sleeping in safe mode for 522 seconds
+2017-07-12 21:39:26,240 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 21:45:34,038 - WARNING - [users/show] Sleeping in safe mode for 534 seconds
+2017-07-12 21:54:28,126 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 22:00:57,931 - WARNING - [users/show] Sleeping in safe mode for 513 seconds
+2017-07-12 22:09:31,026 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 22:15:53,831 - WARNING - [users/show] Sleeping in safe mode for 520 seconds
+2017-07-12 22:24:33,930 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 22:30:49,527 - WARNING - [users/show] Sleeping in safe mode for 527 seconds
+2017-07-12 22:39:36,572 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 22:47:24,651 - WARNING - [users/show] Sleeping in safe mode for 434 seconds
+2017-07-12 22:54:38,733 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 23:01:01,039 - WARNING - [users/show] Sleeping in safe mode for 519 seconds
+2017-07-12 23:09:40,052 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 23:16:16,613 - WARNING - [users/show] Sleeping in safe mode for 506 seconds
+2017-07-12 23:24:42,714 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 23:31:06,245 - WARNING - [users/show] Sleeping in safe mode for 518 seconds
+2017-07-12 23:39:44,277 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-12 23:46:11,547 - WARNING - [users/show] Sleeping in safe mode for 515 seconds
+2017-07-12 23:54:46,616 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 00:01:30,240 - WARNING - [users/show] Sleeping in safe mode for 498 seconds
+2017-07-13 00:09:48,312 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 00:16:26,182 - WARNING - [users/show] Sleeping in safe mode for 504 seconds
+2017-07-13 00:24:50,257 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 00:31:38,075 - WARNING - [users/show] Sleeping in safe mode for 494 seconds
+2017-07-13 00:39:52,145 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 00:46:23,487 - WARNING - [users/show] Sleeping in safe mode for 511 seconds
+2017-07-13 00:54:54,543 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 01:01:34,507 - WARNING - [users/show] Sleeping in safe mode for 502 seconds
+2017-07-13 01:09:56,532 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 01:16:36,584 - WARNING - [users/show] Sleeping in safe mode for 502 seconds
+2017-07-13 01:24:58,673 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 01:31:39,389 - WARNING - [users/show] Sleeping in safe mode for 501 seconds
+2017-07-13 10:29:41,439 - WARNING - ----------New Twitter API Session Opened
+2017-07-13 10:29:41,548 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-13 10:29:41,712 - WARNING - All End Points are clear. Ready to go!
+2017-07-13 10:29:41,719 - WARNING - MongoDB: started at: localhost:27017
+2017-07-13 10:29:43,315 - WARNING - Twitter API: Authentication: Success!
+2017-07-13 10:29:43,317 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-13 10:29:43,346 - WARNING - ----------Resume: Adding Followers ...
+2017-07-13 10:29:43,543 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-13 10:32:25,725 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-13 10:36:42,536 - WARNING - [users/show] Sleeping in safe mode for 524 seconds
+2017-07-13 10:45:26,613 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 10:51:46,320 - WARNING - [users/show] Sleeping in safe mode for 522 seconds
+2017-07-13 11:00:28,386 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 11:06:47,962 - WARNING - [users/show] Sleeping in safe mode for 523 seconds
+2017-07-13 11:15:31,041 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 11:21:51,393 - WARNING - [users/show] Sleeping in safe mode for 522 seconds
+2017-07-13 11:30:33,399 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 11:36:56,222 - WARNING - [users/show] Sleeping in safe mode for 519 seconds
+2017-07-13 11:45:35,236 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 11:51:59,059 - WARNING - [users/show] Sleeping in safe mode for 518 seconds
+2017-07-13 12:00:37,152 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 12:07:09,953 - WARNING - [users/show] Sleeping in safe mode for 510 seconds
+2017-07-13 12:15:39,964 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 12:19:38,880 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-13 12:22:08,714 - WARNING - [users/show] Sleeping in safe mode for 514 seconds
+2017-07-13 12:30:42,745 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 12:37:11,488 - WARNING - [users/show] Sleeping in safe mode for 514 seconds
+2017-07-13 12:45:45,589 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 12:52:22,391 - WARNING - [users/show] Sleeping in safe mode for 505 seconds
+2017-07-13 13:00:47,419 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 13:10:54,389 - WARNING - [users/show] Sleeping in safe mode for 503 seconds
+2017-07-13 13:19:17,446 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 13:25:54,565 - WARNING - [users/show] Sleeping in safe mode for 505 seconds
+2017-07-13 13:34:19,568 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 13:41:12,134 - WARNING - [users/show] Sleeping in safe mode for 489 seconds
+2017-07-13 13:49:21,179 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 13:56:03,883 - WARNING - [users/show] Sleeping in safe mode for 500 seconds
+2017-07-13 14:04:23,885 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 14:11:09,637 - WARNING - [users/show] Sleeping in safe mode for 497 seconds
+2017-07-13 14:19:26,687 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 14:26:10,694 - WARNING - [users/show] Sleeping in safe mode for 498 seconds
+2017-07-13 14:34:28,774 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 14:41:18,070 - WARNING - [users/show] Sleeping in safe mode for 493 seconds
+2017-07-13 14:49:31,072 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 14:56:21,407 - WARNING - [users/show] Sleeping in safe mode for 492 seconds
+2017-07-13 15:04:33,412 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 15:11:28,061 - WARNING - [users/show] Sleeping in safe mode for 488 seconds
+2017-07-13 15:19:36,149 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 15:26:57,476 - WARNING - [users/show] Sleeping in safe mode for 461 seconds
+2017-07-13 15:34:38,575 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 15:41:42,259 - WARNING - [users/show] Sleeping in safe mode for 478 seconds
+2017-07-13 15:49:40,360 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 15:57:42,715 - WARNING - [users/show] Sleeping in safe mode for 420 seconds
+2017-07-13 16:04:42,793 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 16:12:14,601 - WARNING - [users/show] Sleeping in safe mode for 451 seconds
+2017-07-13 16:19:45,676 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 16:27:15,082 - WARNING - [users/show] Sleeping in safe mode for 452 seconds
+2017-07-13 16:34:47,086 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 16:42:31,320 - WARNING - [users/show] Sleeping in safe mode for 438 seconds
+2017-07-13 16:49:49,421 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 16:57:26,380 - WARNING - [users/show] Sleeping in safe mode for 445 seconds
+2017-07-13 17:04:51,450 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 17:12:12,785 - WARNING - [users/show] Sleeping in safe mode for 461 seconds
+2017-07-13 17:19:53,856 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 17:27:40,070 - WARNING - [users/show] Sleeping in safe mode for 436 seconds
+2017-07-13 17:34:56,169 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 17:42:40,838 - WARNING - [users/show] Sleeping in safe mode for 438 seconds
+2017-07-13 17:49:58,856 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 17:57:26,106 - WARNING - [users/show] Sleeping in safe mode for 455 seconds
+2017-07-13 18:05:01,115 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 18:13:01,667 - WARNING - [users/show] Sleeping in safe mode for 422 seconds
+2017-07-13 18:20:03,767 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 18:27:35,467 - WARNING - [users/show] Sleeping in safe mode for 451 seconds
+2017-07-13 18:35:06,562 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 18:42:47,948 - WARNING - [users/show] Sleeping in safe mode for 441 seconds
+2017-07-13 18:50:08,953 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 18:58:19,233 - WARNING - [users/show] Sleeping in safe mode for 412 seconds
+2017-07-13 19:05:11,306 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 19:13:19,108 - WARNING - [users/show] Sleeping in safe mode for 414 seconds
+2017-07-13 19:20:13,129 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 19:29:18,846 - WARNING - [users/show] Sleeping in safe mode for 357 seconds
+2017-07-13 19:35:15,946 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 19:43:32,406 - WARNING - [users/show] Sleeping in safe mode for 406 seconds
+2017-07-13 19:50:18,507 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 19:58:46,099 - WARNING - [users/show] Sleeping in safe mode for 394 seconds
+2017-07-13 20:05:20,199 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 20:13:36,505 - WARNING - [users/show] Sleeping in safe mode for 406 seconds
+2017-07-13 20:20:22,597 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 20:29:12,240 - WARNING - [users/show] Sleeping in safe mode for 372 seconds
+2017-07-13 20:35:24,250 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 20:43:39,109 - WARNING - [users/show] Sleeping in safe mode for 408 seconds
+2017-07-13 20:50:27,210 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 21:04:05,889 - WARNING - [users/show] Sleeping in safe mode for 411 seconds
+2017-07-13 21:10:56,903 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 21:19:06,061 - WARNING - [users/show] Sleeping in safe mode for 413 seconds
+2017-07-13 21:25:59,081 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 21:34:02,934 - WARNING - [users/show] Sleeping in safe mode for 419 seconds
+2017-07-13 21:41:01,975 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 21:49:18,801 - WARNING - [users/show] Sleeping in safe mode for 406 seconds
+2017-07-13 21:56:04,883 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-13 23:25:56,243 - WARNING - ----------New Twitter API Session Opened
+2017-07-13 23:25:56,243 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-13 23:25:56,243 - WARNING - All End Points are clear. Ready to go!
+2017-07-13 23:25:56,249 - WARNING - MongoDB: started at: localhost:27017
+2017-07-13 23:25:56,965 - WARNING - Twitter API: Authentication: Success!
+2017-07-13 23:25:56,967 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-13 23:25:56,968 - WARNING - ----------Resume: Adding Followers ...
+2017-07-13 23:25:56,981 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-13 23:26:02,975 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-13 23:41:00,023 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-13 23:50:45,223 - WARNING - [users/show] Sleeping in safe mode for 327 seconds
+2017-07-13 23:56:12,293 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 00:05:34,069 - WARNING - [users/show] Sleeping in safe mode for 340 seconds
+2017-07-14 00:11:14,170 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 00:20:13,904 - WARNING - [users/show] Sleeping in safe mode for 363 seconds
+2017-07-14 00:26:16,998 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 00:34:35,939 - WARNING - [users/show] Sleeping in safe mode for 404 seconds
+2017-07-14 00:41:20,001 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 00:46:19,395 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-14 00:50:01,208 - WARNING - [users/show] Sleeping in safe mode for 381 seconds
+2017-07-14 00:56:22,278 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 01:04:37,840 - WARNING - [users/show] Sleeping in safe mode for 407 seconds
+2017-07-14 01:07:22,738 - WARNING - Keyboard Interrupt
+
+2017-07-14 11:08:32,212 - WARNING - ----------New Twitter API Session Opened
+2017-07-14 11:08:32,235 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-14 11:08:32,243 - WARNING - All End Points are clear. Ready to go!
+2017-07-14 11:08:32,252 - WARNING - MongoDB: started at: localhost:27017
+2017-07-14 11:08:33,483 - WARNING - Twitter API: Authentication: Success!
+2017-07-14 11:08:33,485 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-14 11:08:33,512 - WARNING - ----------Resume: Adding Followers ...
+2017-07-14 11:08:33,620 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-14 11:08:39,435 - WARNING - [followers/ids] Sleeping in safe mode for 896 seconds
+2017-07-14 11:23:35,536 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-14 11:31:38,674 - WARNING - [users/show] Sleeping in safe mode for 434 seconds
+2017-07-14 11:38:52,703 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 11:46:40,913 - WARNING - [users/show] Sleeping in safe mode for 435 seconds
+2017-07-14 11:53:55,927 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 12:01:51,533 - WARNING - [users/show] Sleeping in safe mode for 427 seconds
+2017-07-14 12:08:58,597 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 12:17:06,574 - WARNING - [users/show] Sleeping in safe mode for 414 seconds
+2017-07-14 12:24:00,651 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 12:32:04,316 - WARNING - [users/show] Sleeping in safe mode for 419 seconds
+2017-07-14 12:39:03,412 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 12:47:09,958 - WARNING - [users/show] Sleeping in safe mode for 416 seconds
+2017-07-14 12:54:06,004 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 13:02:33,135 - WARNING - [users/show] Sleeping in safe mode for 395 seconds
+2017-07-14 13:09:08,232 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 13:17:17,765 - WARNING - [users/show] Sleeping in safe mode for 413 seconds
+2017-07-14 13:24:10,773 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 13:32:39,216 - WARNING - [users/show] Sleeping in safe mode for 394 seconds
+2017-07-14 13:39:13,307 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 13:47:25,244 - WARNING - [users/show] Sleeping in safe mode for 410 seconds
+2017-07-14 13:54:15,267 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 14:02:26,200 - WARNING - [users/show] Sleeping in safe mode for 411 seconds
+2017-07-14 14:09:17,261 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 14:17:30,896 - WARNING - [users/show] Sleeping in safe mode for 409 seconds
+2017-07-14 14:24:19,923 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 14:32:38,741 - WARNING - [users/show] Sleeping in safe mode for 404 seconds
+2017-07-14 14:39:22,744 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 14:47:38,726 - WARNING - [users/show] Sleeping in safe mode for 407 seconds
+2017-07-14 14:54:25,801 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 15:00:11,881 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-14 15:02:46,882 - WARNING - [users/show] Sleeping in safe mode for 402 seconds
+2017-07-14 15:09:28,890 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 15:17:52,385 - WARNING - [users/show] Sleeping in safe mode for 399 seconds
+2017-07-14 15:24:31,395 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 15:33:13,970 - WARNING - [users/show] Sleeping in safe mode for 380 seconds
+2017-07-14 15:39:34,067 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 15:48:22,532 - WARNING - [users/show] Sleeping in safe mode for 374 seconds
+2017-07-14 15:54:36,633 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 16:03:19,016 - WARNING - [users/show] Sleeping in safe mode for 380 seconds
+2017-07-14 16:09:39,117 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 16:18:22,973 - WARNING - [users/show] Sleeping in safe mode for 379 seconds
+2017-07-14 16:24:42,069 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 16:28:26,780 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-14 16:33:57,336 - WARNING - [users/show] Sleeping in safe mode for 347 seconds
+2017-07-14 16:39:44,423 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 16:49:00,820 - WARNING - [users/show] Sleeping in safe mode for 346 seconds
+2017-07-14 16:54:46,909 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 16:58:16,307 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-14 17:03:50,641 - WARNING - [users/show] Sleeping in safe mode for 359 seconds
+2017-07-14 17:09:49,738 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 17:17:23,618 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-14 17:18:40,858 - WARNING - [users/show] Sleeping in safe mode for 372 seconds
+2017-07-14 17:24:52,928 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 17:40:00,071 - WARNING - Keyboard Interrupt
+
+2017-07-14 17:40:05,203 - WARNING - ----------New Twitter API Session Opened
+2017-07-14 17:40:05,203 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-14 17:40:05,204 - WARNING - All End Points are clear. Ready to go!
+2017-07-14 17:40:05,212 - WARNING - MongoDB: started at: localhost:27017
+2017-07-14 17:40:05,965 - WARNING - Twitter API: Authentication: Success!
+2017-07-14 17:40:05,967 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-14 17:40:05,968 - WARNING - ----------Resume: Adding Followers ...
+2017-07-14 17:40:05,981 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-14 17:40:11,055 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-14 17:55:08,145 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-14 18:04:01,856 - WARNING - [users/show] Sleeping in safe mode for 378 seconds
+2017-07-14 18:10:19,951 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 18:26:55,423 - WARNING - [users/show] Sleeping in safe mode for 363 seconds
+2017-07-14 18:32:58,487 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 18:42:09,395 - WARNING - [users/show] Sleeping in safe mode for 351 seconds
+2017-07-14 18:48:00,489 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 18:57:14,320 - WARNING - [users/show] Sleeping in safe mode for 348 seconds
+2017-07-14 19:03:02,421 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 19:12:32,002 - WARNING - [users/show] Sleeping in safe mode for 332 seconds
+2017-07-14 19:18:04,074 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 19:27:28,152 - WARNING - [users/show] Sleeping in safe mode for 338 seconds
+2017-07-14 19:33:06,252 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 19:42:10,777 - WARNING - [users/show] Sleeping in safe mode for 358 seconds
+2017-07-14 19:48:08,877 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 19:57:29,184 - WARNING - [users/show] Sleeping in safe mode for 342 seconds
+2017-07-14 20:03:11,284 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 20:12:28,934 - WARNING - [users/show] Sleeping in safe mode for 345 seconds
+2017-07-14 20:18:14,022 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 20:27:28,489 - WARNING - [users/show] Sleeping in safe mode for 348 seconds
+2017-07-14 20:33:16,583 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 20:42:23,542 - WARNING - [users/show] Sleeping in safe mode for 356 seconds
+2017-07-14 20:48:19,641 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 22:20:33,748 - WARNING - Keyboard Interrupt
+
+2017-07-14 22:20:36,653 - WARNING - ----------New Twitter API Session Opened
+2017-07-14 22:20:36,653 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-14 22:20:36,654 - WARNING - All End Points are clear. Ready to go!
+2017-07-14 22:20:36,660 - WARNING - MongoDB: started at: localhost:27017
+2017-07-14 22:20:37,405 - WARNING - Twitter API: Authentication: Success!
+2017-07-14 22:20:37,407 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-14 22:20:37,408 - WARNING - ----------Resume: Adding Followers ...
+2017-07-14 22:20:37,421 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-14 22:20:42,600 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-14 22:35:39,701 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-14 22:35:44,408 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-14 22:50:41,484 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-14 23:00:16,931 - WARNING - [users/show] Sleeping in safe mode for 331 seconds
+2017-07-14 23:05:48,024 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 23:15:30,967 - WARNING - [users/show] Sleeping in safe mode for 320 seconds
+2017-07-14 23:20:51,033 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 23:30:52,065 - WARNING - [users/show] Sleeping in safe mode for 301 seconds
+2017-07-14 23:35:53,139 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 23:45:32,015 - WARNING - [users/show] Sleeping in safe mode for 323 seconds
+2017-07-14 23:50:55,102 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-14 23:51:03,636 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-15 00:00:33,246 - WARNING - [users/show] Sleeping in safe mode for 324 seconds
+2017-07-15 00:05:57,282 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 00:15:34,569 - WARNING - [users/show] Sleeping in safe mode for 325 seconds
+2017-07-15 00:20:59,613 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 00:31:03,112 - WARNING - [users/show] Sleeping in safe mode for 299 seconds
+2017-07-15 00:36:02,121 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 00:46:03,527 - WARNING - [users/show] Sleeping in safe mode for 301 seconds
+2017-07-15 00:51:04,570 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 01:00:54,523 - WARNING - [users/show] Sleeping in safe mode for 313 seconds
+2017-07-15 01:06:07,587 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 01:16:13,048 - WARNING - [users/show] Sleeping in safe mode for 297 seconds
+2017-07-15 01:21:10,144 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 01:30:53,455 - WARNING - [users/show] Sleeping in safe mode for 319 seconds
+2017-07-15 01:36:12,551 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 01:45:48,870 - WARNING - [users/show] Sleeping in safe mode for 326 seconds
+2017-07-15 01:51:14,971 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 02:01:06,526 - WARNING - [users/show] Sleeping in safe mode for 311 seconds
+2017-07-15 02:06:17,626 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 02:15:58,267 - WARNING - [users/show] Sleeping in safe mode for 322 seconds
+2017-07-15 02:21:20,304 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 02:31:00,949 - WARNING - [users/show] Sleeping in safe mode for 322 seconds
+2017-07-15 02:36:23,050 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 02:46:09,983 - WARNING - [users/show] Sleeping in safe mode for 316 seconds
+2017-07-15 02:51:26,051 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 03:01:17,558 - WARNING - [users/show] Sleeping in safe mode for 311 seconds
+2017-07-15 03:06:28,609 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 03:16:16,850 - WARNING - [users/show] Sleeping in safe mode for 315 seconds
+2017-07-15 03:21:31,865 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 03:31:15,613 - WARNING - [users/show] Sleeping in safe mode for 319 seconds
+2017-07-15 03:36:34,625 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 03:46:32,040 - WARNING - [users/show] Sleeping in safe mode for 305 seconds
+2017-07-15 03:51:37,131 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 03:57:10,238 - WARNING - Keyboard Interrupt
+
+2017-07-15 16:50:12,824 - WARNING - ----------New Twitter API Session Opened
+2017-07-15 16:50:12,882 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-15 16:50:12,883 - WARNING - All End Points are clear. Ready to go!
+2017-07-15 16:50:12,890 - WARNING - MongoDB: started at: localhost:27017
+2017-07-15 16:50:14,012 - WARNING - Twitter API: Authentication: Success!
+2017-07-15 16:50:14,014 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-15 16:50:14,042 - WARNING - ----------Resume: Adding Followers ...
+2017-07-15 16:50:14,083 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-15 16:50:19,360 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-15 17:05:16,371 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-15 17:05:21,031 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-15 17:20:18,126 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-15 17:48:00,719 - WARNING - ----------New Twitter API Session Opened
+2017-07-15 17:48:00,719 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-15 17:48:00,720 - WARNING - All End Points are clear. Ready to go!
+2017-07-15 17:48:00,726 - WARNING - MongoDB: started at: localhost:27017
+2017-07-15 17:48:01,427 - WARNING - Twitter API: Authentication: Success!
+2017-07-15 17:48:01,428 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-15 17:48:01,430 - WARNING - ----------Resume: Adding Followers ...
+2017-07-15 17:48:01,442 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-15 17:48:06,681 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-15 18:03:03,688 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-15 18:03:08,509 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-15 18:18:05,551 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-15 18:28:26,610 - WARNING - [users/show] Sleeping in safe mode for 305 seconds
+2017-07-15 18:33:31,612 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 18:43:34,996 - WARNING - [users/show] Sleeping in safe mode for 300 seconds
+2017-07-15 18:48:35,096 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 18:58:38,749 - WARNING - [users/show] Sleeping in safe mode for 299 seconds
+2017-07-15 19:03:37,801 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 19:07:32,367 - WARNING - This is OK! No JSON object could be decoded
+2017-07-15 19:13:38,096 - WARNING - [users/show] Sleeping in safe mode for 302 seconds
+2017-07-15 19:18:40,134 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 19:28:38,648 - WARNING - [users/show] Sleeping in safe mode for 304 seconds
+2017-07-15 19:33:42,744 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 19:43:38,287 - WARNING - [users/show] Sleeping in safe mode for 307 seconds
+2017-07-15 19:48:45,371 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-15 19:59:20,323 - WARNING - [users/show] Sleeping in safe mode for 267 seconds
+2017-07-15 20:03:47,397 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 00:22:09,443 - WARNING - ----------New Twitter API Session Opened
+2017-07-16 00:22:09,443 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-16 00:22:09,443 - WARNING - All End Points are clear. Ready to go!
+2017-07-16 00:22:09,449 - WARNING - MongoDB: started at: localhost:27017
+2017-07-16 00:22:10,496 - WARNING - Twitter API: Authentication: Success!
+2017-07-16 00:22:10,498 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-16 00:22:10,499 - WARNING - ----------Resume: Adding Followers ...
+2017-07-16 00:22:10,512 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-16 00:22:17,324 - WARNING - [followers/ids] Sleeping in safe mode for 895 seconds
+2017-07-16 00:37:12,371 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-16 00:37:17,837 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-16 00:52:14,936 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-16 01:02:28,136 - WARNING - [users/show] Sleeping in safe mode for 295 seconds
+2017-07-16 01:07:23,140 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 01:17:28,816 - WARNING - [users/show] Sleeping in safe mode for 297 seconds
+2017-07-16 01:22:25,914 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 01:33:08,138 - WARNING - [users/show] Sleeping in safe mode for 260 seconds
+2017-07-16 01:37:28,235 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 01:47:50,269 - WARNING - [users/show] Sleeping in safe mode for 280 seconds
+2017-07-16 01:52:30,370 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 02:02:43,383 - WARNING - [users/show] Sleeping in safe mode for 289 seconds
+2017-07-16 02:07:32,461 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 02:17:57,994 - WARNING - [users/show] Sleeping in safe mode for 278 seconds
+2017-07-16 02:22:36,092 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 02:32:52,122 - WARNING - [users/show] Sleeping in safe mode for 286 seconds
+2017-07-16 02:37:38,222 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 02:45:47,600 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-16 02:48:14,695 - WARNING - [users/show] Sleeping in safe mode for 266 seconds
+2017-07-16 02:52:40,711 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 03:03:18,529 - WARNING - [users/show] Sleeping in safe mode for 265 seconds
+2017-07-16 03:07:43,630 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 03:18:00,846 - WARNING - [users/show] Sleeping in safe mode for 286 seconds
+2017-07-16 03:22:46,888 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 03:33:01,920 - WARNING - [users/show] Sleeping in safe mode for 288 seconds
+2017-07-16 03:37:50,021 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 03:48:23,709 - WARNING - [users/show] Sleeping in safe mode for 269 seconds
+2017-07-16 03:52:52,773 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 04:03:28,372 - WARNING - [users/show] Sleeping in safe mode for 267 seconds
+2017-07-16 04:07:55,448 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 04:18:24,389 - WARNING - [users/show] Sleeping in safe mode for 274 seconds
+2017-07-16 04:22:58,479 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 04:33:24,720 - WARNING - [users/show] Sleeping in safe mode for 277 seconds
+2017-07-16 04:38:01,798 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 04:42:26,555 - WARNING - Keyboard Interrupt
+
+2017-07-16 12:59:52,764 - WARNING - ----------New Twitter API Session Opened
+2017-07-16 12:59:52,795 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-16 12:59:52,795 - WARNING - All End Points are clear. Ready to go!
+2017-07-16 12:59:52,803 - WARNING - MongoDB: started at: localhost:27017
+2017-07-16 12:59:54,102 - WARNING - Twitter API: Authentication: Success!
+2017-07-16 12:59:54,104 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-16 12:59:54,119 - WARNING - ----------Resume: Adding Followers ...
+2017-07-16 12:59:54,149 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-16 12:59:59,745 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-16 13:14:56,846 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-16 13:15:02,132 - WARNING - [followers/ids] Sleeping in safe mode for 896 seconds
+2017-07-16 13:29:58,171 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-16 13:40:32,367 - WARNING - [users/show] Sleeping in safe mode for 289 seconds
+2017-07-16 13:45:21,467 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 13:50:05,724 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-16 13:55:34,573 - WARNING - [users/show] Sleeping in safe mode for 289 seconds
+2017-07-16 14:00:23,674 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 14:10:39,177 - WARNING - [users/show] Sleeping in safe mode for 287 seconds
+2017-07-16 14:15:26,257 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 14:25:46,124 - WARNING - [users/show] Sleeping in safe mode for 282 seconds
+2017-07-16 14:30:28,209 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 14:41:04,273 - WARNING - [users/show] Sleeping in safe mode for 266 seconds
+2017-07-16 14:45:30,368 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 14:55:58,843 - WARNING - [users/show] Sleeping in safe mode for 274 seconds
+2017-07-16 15:00:32,849 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 15:10:57,236 - WARNING - [users/show] Sleeping in safe mode for 278 seconds
+2017-07-16 15:15:35,299 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 15:26:31,002 - WARNING - [users/show] Sleeping in safe mode for 246 seconds
+2017-07-16 15:30:37,010 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 15:41:35,688 - WARNING - [users/show] Sleeping in safe mode for 244 seconds
+2017-07-16 15:45:39,785 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 15:56:42,647 - WARNING - [users/show] Sleeping in safe mode for 240 seconds
+2017-07-16 16:00:42,736 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 16:11:59,138 - WARNING - [users/show] Sleeping in safe mode for 226 seconds
+2017-07-16 16:15:45,159 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 16:26:42,500 - WARNING - [users/show] Sleeping in safe mode for 245 seconds
+2017-07-16 16:30:47,600 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 16:42:18,273 - WARNING - [users/show] Sleeping in safe mode for 212 seconds
+2017-07-16 16:45:50,372 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 16:57:06,167 - WARNING - [users/show] Sleeping in safe mode for 226 seconds
+2017-07-16 17:00:52,247 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 17:09:38,671 - ERROR - Unknown Twitter API error: HTTP code: 503 Error Message: [{u'message': u'Over capacity', u'code': 130}]
+2017-07-16 20:20:15,084 - WARNING - ----------New Twitter API Session Opened
+2017-07-16 20:20:15,084 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-16 20:20:15,085 - WARNING - All End Points are clear. Ready to go!
+2017-07-16 20:20:15,090 - WARNING - MongoDB: started at: localhost:27017
+2017-07-16 20:20:15,826 - WARNING - Twitter API: Authentication: Success!
+2017-07-16 20:20:15,828 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-16 20:20:15,829 - WARNING - ----------Resume: Adding Followers ...
+2017-07-16 20:20:15,848 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-16 20:20:21,304 - WARNING - [followers/ids] Sleeping in safe mode for 896 seconds
+2017-07-16 20:21:49,450 - WARNING - Keyboard Interrupt
+
+2017-07-16 20:21:52,457 - WARNING - ----------New Twitter API Session Opened
+2017-07-16 20:21:52,457 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-16 20:21:52,458 - WARNING - Depleted End Points: followers/ids
+2017-07-16 20:21:52,458 - WARNING - Please wait 805 seconds untill All End Points clear ...
+2017-07-16 20:21:52,458 - WARNING - Sleeping in safe mode for 805 seconds
+2017-07-16 20:35:17,483 - WARNING - All End Points are now clear. Ready to go!
+2017-07-16 20:35:17,489 - WARNING - MongoDB: started at: localhost:27017
+2017-07-16 20:35:18,226 - WARNING - Twitter API: Authentication: Success!
+2017-07-16 20:35:18,227 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-16 20:35:18,228 - WARNING - ----------Resume: Adding Followers ...
+2017-07-16 20:35:18,240 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-16 20:35:23,525 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-16 20:50:20,614 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-16 20:50:26,659 - WARNING - [followers/ids] Sleeping in safe mode for 896 seconds
+2017-07-16 21:05:22,759 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-16 21:20:17,382 - WARNING - [users/show] Sleeping in safe mode for 22 seconds
+2017-07-16 21:20:39,404 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 21:33:17,861 - WARNING - [users/show] Sleeping in safe mode for 145 seconds
+2017-07-16 21:35:42,951 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 21:48:13,084 - WARNING - [users/show] Sleeping in safe mode for 152 seconds
+2017-07-16 21:50:45,183 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 22:02:24,961 - WARNING - [users/show] Sleeping in safe mode for 203 seconds
+2017-07-16 22:05:48,058 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 22:16:55,834 - WARNING - Server Overload. Sleeping for 30 seconds ...
+2017-07-16 22:18:49,162 - WARNING - [users/show] Sleeping in safe mode for 121 seconds
+2017-07-16 22:20:50,250 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 22:32:20,873 - WARNING - [users/show] Sleeping in safe mode for 212 seconds
+2017-07-16 22:35:52,895 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 22:47:37,981 - WARNING - [users/show] Sleeping in safe mode for 198 seconds
+2017-07-16 22:50:56,077 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 23:03:06,420 - WARNING - [users/show] Sleeping in safe mode for 172 seconds
+2017-07-16 23:05:58,519 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 23:18:23,493 - WARNING - [users/show] Sleeping in safe mode for 158 seconds
+2017-07-16 23:21:01,530 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 23:34:23,379 - WARNING - [users/show] Sleeping in safe mode for 101 seconds
+2017-07-16 23:36:04,480 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-16 23:48:56,978 - WARNING - [users/show] Sleeping in safe mode for 131 seconds
+2017-07-16 23:51:08,074 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 00:02:21,952 - WARNING - Server Overload. Sleeping for 30 seconds ...
+2017-07-17 00:04:27,518 - WARNING - [users/show] Sleeping in safe mode for 103 seconds
+2017-07-17 00:06:10,522 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 00:20:01,785 - WARNING - [users/show] Sleeping in safe mode for 124 seconds
+2017-07-17 00:22:05,795 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 00:35:30,914 - WARNING - [users/show] Sleeping in safe mode for 98 seconds
+2017-07-17 00:37:08,975 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 00:49:47,714 - WARNING - [users/show] Sleeping in safe mode for 144 seconds
+2017-07-17 00:52:11,743 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 01:04:19,962 - WARNING - [users/show] Sleeping in safe mode for 175 seconds
+2017-07-17 01:07:15,036 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 01:19:42,895 - WARNING - [users/show] Sleeping in safe mode for 155 seconds
+2017-07-17 01:22:17,905 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 01:34:07,897 - WARNING - [users/show] Sleeping in safe mode for 193 seconds
+2017-07-17 01:37:20,899 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 01:49:40,536 - WARNING - [users/show] Sleeping in safe mode for 163 seconds
+2017-07-17 01:52:23,581 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 02:04:28,019 - WARNING - [users/show] Sleeping in safe mode for 178 seconds
+2017-07-17 02:07:26,029 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 02:19:20,405 - WARNING - [users/show] Sleeping in safe mode for 188 seconds
+2017-07-17 02:22:28,500 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 02:37:28,771 - WARNING - [users/show] Sleeping in safe mode for 3 seconds
+2017-07-17 02:37:31,775 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 02:50:18,412 - WARNING - [users/show] Sleeping in safe mode for 136 seconds
+2017-07-17 02:52:34,509 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 03:04:31,385 - WARNING - [users/show] Sleeping in safe mode for 186 seconds
+2017-07-17 03:07:37,423 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 03:19:46,048 - WARNING - [users/show] Sleeping in safe mode for 174 seconds
+2017-07-17 03:22:40,135 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 03:34:21,460 - WARNING - [users/show] Sleeping in safe mode for 201 seconds
+2017-07-17 03:37:42,559 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 03:50:10,659 - WARNING - [users/show] Sleeping in safe mode for 155 seconds
+2017-07-17 03:52:45,747 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 03:56:31,223 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-17 04:04:57,392 - WARNING - [users/show] Sleeping in safe mode for 171 seconds
+2017-07-17 04:07:48,490 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 04:20:07,300 - WARNING - [users/show] Sleeping in safe mode for 164 seconds
+2017-07-17 04:22:51,361 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 04:34:46,098 - WARNING - [users/show] Sleeping in safe mode for 187 seconds
+2017-07-17 04:35:48,462 - WARNING - Keyboard Interrupt
+
+2017-07-17 15:56:52,521 - WARNING - ----------New Twitter API Session Opened
+2017-07-17 15:56:52,553 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-17 15:56:52,553 - WARNING - All End Points are clear. Ready to go!
+2017-07-17 15:56:52,560 - WARNING - MongoDB: started at: localhost:27017
+2017-07-17 15:56:53,812 - WARNING - Twitter API: Authentication: Success!
+2017-07-17 15:56:53,814 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-17 15:56:53,832 - WARNING - ----------Resume: Adding Followers ...
+2017-07-17 15:56:53,862 - WARNING - Adding Followers of source: arduino in db_name: Arduino Followers count: 235618
+2017-07-17 15:56:58,797 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-17 16:11:55,893 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-17 16:12:02,767 - WARNING - [followers/ids] Sleeping in safe mode for 896 seconds
+2017-07-17 16:26:58,858 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-17 16:27:04,056 - WARNING - [followers/ids] Sleeping in safe mode for 896 seconds
+2017-07-17 16:42:00,139 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-17 16:54:06,071 - WARNING - [users/show] Sleeping in safe mode for 194 seconds
+2017-07-17 16:57:20,120 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 17:09:11,125 - WARNING - [users/show] Sleeping in safe mode for 191 seconds
+2017-07-17 17:12:22,128 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 17:15:07,196 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-17 17:24:18,533 - WARNING - [users/show] Sleeping in safe mode for 186 seconds
+2017-07-17 17:27:24,587 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 17:39:25,518 - WARNING - [users/show] Sleeping in safe mode for 182 seconds
+2017-07-17 17:42:27,584 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 17:54:24,775 - WARNING - [users/show] Sleeping in safe mode for 186 seconds
+2017-07-17 17:57:30,870 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 18:09:35,349 - WARNING - [users/show] Sleeping in safe mode for 178 seconds
+2017-07-17 18:12:33,397 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 18:24:40,624 - WARNING - [users/show] Sleeping in safe mode for 176 seconds
+2017-07-17 18:27:36,641 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 18:39:59,737 - WARNING - [users/show] Sleeping in safe mode for 160 seconds
+2017-07-17 18:42:39,838 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 18:54:46,771 - WARNING - [users/show] Sleeping in safe mode for 176 seconds
+2017-07-17 18:57:42,872 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 19:09:52,907 - WARNING - [users/show] Sleeping in safe mode for 173 seconds
+2017-07-17 19:12:45,989 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 19:25:10,165 - WARNING - [users/show] Sleeping in safe mode for 158 seconds
+2017-07-17 19:27:48,254 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 19:40:42,398 - WARNING - [users/show] Sleeping in safe mode for 128 seconds
+2017-07-17 19:42:50,499 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 19:55:24,387 - WARNING - [users/show] Sleeping in safe mode for 149 seconds
+2017-07-17 19:57:53,488 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 20:10:41,309 - WARNING - [users/show] Sleeping in safe mode for 135 seconds
+2017-07-17 20:12:56,320 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 20:25:31,321 - WARNING - [users/show] Sleeping in safe mode for 147 seconds
+2017-07-17 20:27:58,379 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 20:40:25,631 - WARNING - [users/show] Sleeping in safe mode for 156 seconds
+2017-07-17 20:43:01,722 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 20:55:34,686 - WARNING - [users/show] Sleeping in safe mode for 150 seconds
+2017-07-17 20:58:04,760 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 21:10:41,557 - WARNING - [users/show] Sleeping in safe mode for 146 seconds
+2017-07-17 21:13:07,587 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 21:25:40,233 - WARNING - [users/show] Sleeping in safe mode for 150 seconds
+2017-07-17 21:28:10,333 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 21:40:39,954 - WARNING - [users/show] Sleeping in safe mode for 153 seconds
+2017-07-17 21:43:13,044 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 21:55:58,465 - WARNING - [users/show] Sleeping in safe mode for 137 seconds
+2017-07-17 21:58:15,466 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 22:11:00,936 - WARNING - [users/show] Sleeping in safe mode for 138 seconds
+2017-07-17 22:13:19,012 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 22:16:30,874 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-17 22:26:11,722 - WARNING - [users/show] Sleeping in safe mode for 130 seconds
+2017-07-17 22:28:21,727 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 22:41:18,577 - WARNING - [users/show] Sleeping in safe mode for 126 seconds
+2017-07-17 22:43:24,582 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 22:56:18,221 - WARNING - [users/show] Sleeping in safe mode for 129 seconds
+2017-07-17 22:58:27,229 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 23:11:43,480 - WARNING - [users/show] Sleeping in safe mode for 106 seconds
+2017-07-17 23:13:29,508 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 23:25:22,775 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-17 23:26:26,415 - WARNING - [users/show] Sleeping in safe mode for 126 seconds
+2017-07-17 23:28:32,508 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 23:41:31,898 - WARNING - [users/show] Sleeping in safe mode for 124 seconds
+2017-07-17 23:43:35,967 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-17 23:56:32,436 - WARNING - [users/show] Sleeping in safe mode for 126 seconds
+2017-07-17 23:58:38,444 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-18 00:11:48,002 - WARNING - [users/show] Sleeping in safe mode for 113 seconds
+2017-07-18 00:13:41,103 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-18 00:18:08,120 - WARNING - Done with Adding Followers of source: arduino in db_name: Arduino
+2017-07-18 00:18:08,120 - WARNING - Adding Followers of source: arduino_patulli in db_name: Arduino Followers count: 253
+2017-07-18 00:18:08,401 - WARNING - This is OK! "Error message: Twitter API: Protected [followers/ids] Error code: 401 Details: {u'request': u'/1.1/followers/ids.json', u'error': u'Not authorized.'}"
+2017-07-18 00:18:08,401 - WARNING - Done with Adding Followers of source: arduino_patulli in db_name: Arduino
+2017-07-18 00:18:08,401 - WARNING - Adding Followers of source: planetarduino in db_name: Arduino Followers count: 21336
+2017-07-18 00:55:01,298 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 01:12:29,444 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 01:37:04,238 - WARNING - Done with Adding Followers of source: planetarduino in db_name: Arduino
+2017-07-18 01:37:04,239 - WARNING - Adding Followers of source: TheArduinoGuy in db_name: Arduino Followers count: 5873
+2017-07-18 01:38:00,482 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 01:48:19,826 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 01:52:50,398 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 02:19:15,235 - WARNING - Done with Adding Followers of source: TheArduinoGuy in db_name: Arduino
+2017-07-18 02:19:15,235 - WARNING - Adding Followers of source: ArduinoOrg in db_name: Arduino Followers count: 3585
+2017-07-18 02:38:01,235 - WARNING - Done with Adding Followers of source: ArduinoOrg in db_name: Arduino
+2017-07-18 02:38:01,235 - WARNING - Adding Followers of source: arduinopraxis in db_name: Arduino Followers count: 3185
+2017-07-18 02:39:26,897 - WARNING - Keyboard Interrupt
+
+2017-07-18 02:39:41,446 - WARNING - ----------New Twitter API Session Opened
+2017-07-18 02:39:41,447 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-18 02:39:41,447 - WARNING - All End Points are clear. Ready to go!
+2017-07-18 02:39:41,454 - WARNING - MongoDB: started at: localhost:27017
+2017-07-18 02:39:42,154 - WARNING - Twitter API: Authentication: Success!
+2017-07-18 02:39:42,156 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-18 02:39:42,157 - WARNING - ----------Resume: Adding Followers ...
+2017-07-18 02:39:42,171 - WARNING - Adding Followers of source: arduinopraxis in db_name: Arduino Followers count: 3185
+2017-07-18 02:43:02,731 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 02:53:22,020 - WARNING - Done with Adding Followers of source: arduinopraxis in db_name: Arduino
+2017-07-18 02:53:22,021 - WARNING - Adding Followers of source: Arduino24x7 in db_name: Arduino Followers count: 6602
+2017-07-18 03:05:29,109 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 03:08:10,296 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 03:23:04,664 - WARNING - Done with Adding Followers of source: Arduino24x7 in db_name: Arduino
+2017-07-18 03:23:04,664 - WARNING - Adding Followers of source: arduinoarts in db_name: Arduino Followers count: 5820
+2017-07-18 03:33:10,642 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 03:45:54,494 - WARNING - Done with Adding Followers of source: arduinoarts in db_name: Arduino
+2017-07-18 03:45:54,495 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-18 03:58:20,657 - WARNING - [users/show] Sleeping in safe mode for 39 seconds
+2017-07-18 03:58:59,663 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-18 04:12:57,757 - WARNING - [users/show] Sleeping in safe mode for 65 seconds
+2017-07-18 04:14:02,784 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-18 04:22:45,560 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 04:27:54,962 - WARNING - [users/show] Sleeping in safe mode for 71 seconds
+2017-07-18 04:29:05,982 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-18 04:39:56,483 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 04:43:14,133 - WARNING - [users/show] Sleeping in safe mode for 54 seconds
+2017-07-18 04:44:08,158 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-18 04:58:40,182 - WARNING - [users/show] Sleeping in safe mode for 30 seconds
+2017-07-18 04:59:10,189 - WARNING - [users/show] End Point is now clear. Ready to go!
+2017-07-18 05:03:39,616 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 05:39:35,652 - WARNING - Keyboard Interrupt
+
+2017-07-18 07:50:10,524 - WARNING - ----------New Twitter API Session Opened
+2017-07-18 07:50:10,546 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-18 07:50:10,546 - WARNING - All End Points are clear. Ready to go!
+2017-07-18 07:50:10,552 - WARNING - MongoDB: started at: localhost:27017
+2017-07-18 07:50:11,935 - WARNING - Twitter API: Authentication: Success!
+2017-07-18 07:50:11,937 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-18 07:50:11,950 - WARNING - ----------Resume: Adding Followers ...
+2017-07-18 07:50:11,980 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-18 12:58:52,653 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 14:01:21,012 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 16:08:26,967 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-18 21:05:38,943 - WARNING - Keyboard Interrupt
+
+2017-07-18 21:05:40,744 - WARNING - ----------New Twitter API Session Opened
+2017-07-18 21:05:40,744 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-18 21:05:40,745 - WARNING - All End Points are clear. Ready to go!
+2017-07-18 21:05:40,750 - WARNING - MongoDB: started at: localhost:27017
+2017-07-18 21:05:41,473 - WARNING - Twitter API: Authentication: Success!
+2017-07-18 21:05:41,475 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-18 21:05:41,476 - WARNING - ----------Resume: Adding Followers ...
+2017-07-18 21:05:41,490 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-18 21:05:46,508 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-18 21:19:20,984 - WARNING - Keyboard Interrupt
+
+2017-07-18 21:19:23,084 - WARNING - ----------New Twitter API Session Opened
+2017-07-18 21:19:23,085 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-18 21:19:23,085 - WARNING - Depleted End Points: followers/ids
+2017-07-18 21:19:23,085 - WARNING - Please wait 80 seconds untill All End Points clear ...
+2017-07-18 21:19:23,085 - WARNING - Sleeping in safe mode for 80 seconds
+2017-07-18 21:20:43,155 - WARNING - All End Points are now clear. Ready to go!
+2017-07-18 21:20:43,162 - WARNING - MongoDB: started at: localhost:27017
+2017-07-18 21:20:43,959 - WARNING - Twitter API: Authentication: Success!
+2017-07-18 21:20:43,961 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-18 21:20:43,962 - WARNING - ----------Resume: Adding Followers ...
+2017-07-18 21:20:43,976 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-18 21:20:44,125 - ERROR - Unable to find api.twitter.com [followers/id]. Sleeping for 30 seconds ...
+2017-07-18 21:21:14,234 - ERROR - Unable to find api.twitter.com [followers/id]. Sleeping for 30 seconds ...
+2017-07-18 21:21:44,320 - ERROR - Unable to find api.twitter.com [followers/id]. Sleeping for 30 seconds ...
+2017-07-18 21:21:54,901 - WARNING - Keyboard Interrupt
+
+2017-07-18 21:21:57,379 - WARNING - ----------New Twitter API Session Opened
+2017-07-18 21:21:57,379 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-18 21:21:57,379 - WARNING - All End Points are clear. Ready to go!
+2017-07-18 21:21:57,387 - WARNING - MongoDB: started at: localhost:27017
+2017-07-18 21:21:58,269 - WARNING - Twitter API: Authentication: Success!
+2017-07-18 21:21:58,271 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-18 21:21:58,272 - WARNING - ----------Resume: Adding Followers ...
+2017-07-18 21:21:58,285 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-18 21:22:03,647 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-18 21:37:00,726 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-18 21:43:45,750 - WARNING - Keyboard Interrupt
+
+2017-07-18 21:43:48,342 - WARNING - ----------New Twitter API Session Opened
+2017-07-18 21:43:48,342 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-18 21:43:48,342 - WARNING - All End Points are clear. Ready to go!
+2017-07-18 21:43:48,351 - WARNING - MongoDB: started at: localhost:27017
+2017-07-18 21:43:49,048 - WARNING - Twitter API: Authentication: Success!
+2017-07-18 21:43:49,049 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-18 21:43:49,051 - WARNING - ----------Resume: Adding Followers ...
+2017-07-18 21:43:49,066 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-18 21:43:51,152 - WARNING - [followers/ids] Sleeping in safe mode for 491 seconds
+2017-07-18 21:52:02,251 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-18 21:52:07,099 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-18 22:07:04,118 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-18 22:17:40,431 - WARNING - Keyboard Interrupt
+
+2017-07-18 22:17:43,347 - WARNING - ----------New Twitter API Session Opened
+2017-07-18 22:17:43,347 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-18 22:17:43,347 - WARNING - All End Points are clear. Ready to go!
+2017-07-18 22:17:43,355 - WARNING - MongoDB: started at: localhost:27017
+2017-07-18 22:17:44,061 - WARNING - Twitter API: Authentication: Success!
+2017-07-18 22:17:44,063 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-18 22:17:44,064 - WARNING - ----------Resume: Adding Followers ...
+2017-07-18 22:17:44,081 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-18 22:17:47,562 - WARNING - [followers/ids] Sleeping in safe mode for 259 seconds
+2017-07-18 22:22:06,661 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-18 22:22:11,613 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-18 22:37:08,617 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-18 23:18:36,663 - WARNING - ----------New Twitter API Session Opened
+2017-07-18 23:18:36,664 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-18 23:18:36,664 - WARNING - All End Points are clear. Ready to go!
+2017-07-18 23:18:36,670 - WARNING - MongoDB: started at: localhost:27017
+2017-07-18 23:18:37,451 - WARNING - Twitter API: Authentication: Success!
+2017-07-18 23:18:37,453 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-18 23:18:37,454 - WARNING - ----------Resume: Adding Followers ...
+2017-07-18 23:18:37,472 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-18 23:18:42,643 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-18 23:33:39,678 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-18 23:48:18,955 - WARNING - Keyboard Interrupt
+
+2017-07-21 00:17:18,302 - WARNING - ----------New Twitter API Session Opened
+2017-07-21 00:17:18,329 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-21 00:17:18,329 - WARNING - All End Points are clear. Ready to go!
+2017-07-21 00:17:18,340 - WARNING - MongoDB: started at: localhost:27017
+2017-07-21 00:17:19,162 - WARNING - Twitter API: Authentication: Success!
+2017-07-21 00:17:19,164 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-21 00:17:19,165 - WARNING - ----------Resume: Adding Followers ...
+2017-07-21 00:17:19,206 - WARNING - Adding Followers of source: OfficineArduino in db_name: Arduino Followers count: 1279
+2017-07-21 00:17:19,447 - WARNING - This is OK! "Error message: Twitter API: UserNotFound [followers/ids] Error code: 404 Details: [{u'message': u'Sorry, that page does not exist.', u'code': 34}]"
+2017-07-21 00:17:19,448 - WARNING - Done with Adding Followers of source: OfficineArduino in db_name: Arduino
+2017-07-21 00:17:19,600 - WARNING - Adding Followers: All Done!
+2017-07-21 00:17:19,601 - WARNING - Finished. All Done.
+
+2017-07-21 00:17:44,328 - WARNING - ----------New Twitter API Session Opened
+2017-07-21 00:17:44,328 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-21 00:17:44,328 - WARNING - All End Points are clear. Ready to go!
+2017-07-21 00:17:44,341 - WARNING - MongoDB: started at: localhost:27017
+2017-07-21 00:17:45,637 - WARNING - Twitter API: Authentication: Success!
+2017-07-21 00:17:45,639 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-21 00:17:45,640 - WARNING - ----------Resume: Skipping Operation Adding Followers
+2017-07-21 00:17:45,640 - WARNING - Finished. All Done.
+
+2017-07-21 00:40:36,631 - WARNING - ----------New Twitter API Session Opened
+2017-07-21 00:40:36,631 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-21 00:40:36,631 - WARNING - All End Points are clear. Ready to go!
+2017-07-21 00:40:36,643 - WARNING - MongoDB: started at: localhost:27017
+2017-07-21 00:40:37,484 - WARNING - Twitter API: Authentication: Success!
+2017-07-21 00:40:37,486 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-21 00:40:37,487 - WARNING - ----------Resume: Adding Followers ...
+2017-07-21 00:40:37,502 - WARNING - Adding Followers of source: OfficineArduino in db_name: Arduino Followers count: 1279
+2017-07-21 00:40:37,747 - WARNING - This is OK! "Error message: Twitter API: UserNotFound [followers/ids] Error code: 404 Details: [{u'message': u'Sorry, that page does not exist.', u'code': 34}]"
+2017-07-21 00:40:37,747 - WARNING - Done with Adding Followers of source: OfficineArduino in db_name: Arduino
+2017-07-21 00:40:37,875 - WARNING - Adding Followers: All Done!
+2017-07-21 00:40:37,877 - WARNING - Finished. All Done.
+
+2017-07-21 00:41:42,587 - WARNING - ----------New Twitter API Session Opened
+2017-07-21 00:41:42,588 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-21 00:41:42,588 - WARNING - All End Points are clear. Ready to go!
+2017-07-21 00:41:42,599 - WARNING - MongoDB: started at: localhost:27017
+2017-07-21 00:41:43,352 - WARNING - Twitter API: Authentication: Success!
+2017-07-21 00:41:43,354 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-21 00:41:43,355 - WARNING - ----------Resume: Skipping Operation Adding Followers
+2017-07-21 00:41:43,355 - WARNING - Finished. All Done.
+
+2017-07-21 00:44:17,190 - WARNING - ----------New Twitter API Session Opened
+2017-07-21 00:44:17,190 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-21 00:44:17,190 - WARNING - All End Points are clear. Ready to go!
+2017-07-21 00:44:17,201 - WARNING - MongoDB: started at: localhost:27017
+2017-07-21 00:44:18,007 - WARNING - Twitter API: Authentication: Success!
+2017-07-21 00:44:18,008 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-21 00:44:18,010 - WARNING - ----------Resume: Adding Followers ...
+2017-07-21 00:44:18,025 - WARNING - Adding Followers of source: OfficineArduino in db_name: Arduino Followers count: 1279
+2017-07-21 00:44:18,267 - WARNING - This is OK! "Error message: Twitter API: UserNotFound [followers/ids] Error code: 404 Details: [{u'message': u'Sorry, that page does not exist.', u'code': 34}]"
+2017-07-21 00:44:18,267 - WARNING - Done with Adding Followers of source: OfficineArduino in db_name: Arduino
+2017-07-21 00:44:18,417 - WARNING - Adding Followers: All Done!
+2017-07-21 00:44:18,418 - WARNING - Finished. All Done.
+
+2017-07-21 00:51:56,235 - WARNING - ----------New Twitter API Session Opened
+2017-07-21 00:51:56,235 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-21 00:51:56,236 - WARNING - All End Points are clear. Ready to go!
+2017-07-21 00:51:56,248 - WARNING - MongoDB: started at: localhost:27017
+2017-07-21 00:52:02,227 - WARNING - Twitter API: Authentication: Success!
+2017-07-21 00:52:02,229 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-21 00:52:02,230 - WARNING - ----------Resume: Adding Followers ...
+2017-07-21 00:52:02,247 - WARNING - Adding Followers of source: OfficineArduino in db_name: Arduino Followers count: 1279
+2017-07-21 00:52:02,497 - WARNING - This is OK! "Error message: Twitter API: UserNotFound [followers/ids] Error code: 404 Details: [{u'message': u'Sorry, that page does not exist.', u'code': 34}]"
+2017-07-21 00:52:02,497 - WARNING - Done with Adding Followers of source: OfficineArduino in db_name: Arduino
+2017-07-21 00:52:02,651 - WARNING - Adding Followers: All Done!
+2017-07-21 00:52:02,652 - WARNING - Finished. All Done.
+
+2017-07-21 00:55:51,310 - WARNING - ----------New Twitter API Session Opened
+2017-07-21 00:55:51,311 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-21 00:55:51,311 - WARNING - All End Points are clear. Ready to go!
+2017-07-21 00:55:51,322 - WARNING - MongoDB: started at: localhost:27017
+2017-07-21 00:55:52,080 - WARNING - Twitter API: Authentication: Success!
+2017-07-21 00:55:52,082 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-21 00:55:52,084 - WARNING - ----------Resume: Adding Followers ...
+2017-07-21 00:55:52,099 - WARNING - Adding Followers of source: OfficineArduino in db_name: Arduino Followers count: 1279
+2017-07-21 00:55:52,345 - WARNING - This is OK! "Error message: Twitter API: UserNotFound [followers/ids] Error code: 404 Details: [{u'message': u'Sorry, that page does not exist.', u'code': 34}]"
+2017-07-21 00:55:52,345 - WARNING - Done with Adding Followers of source: OfficineArduino in db_name: Arduino
+2017-07-21 00:55:52,496 - WARNING - Adding Followers: All Done!
+2017-07-21 00:55:52,497 - WARNING - Finished. All Done.
+
+2017-07-21 01:05:14,888 - WARNING - ----------New Twitter API Session Opened
+2017-07-21 01:05:14,889 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-21 01:05:14,889 - WARNING - All End Points are clear. Ready to go!
+2017-07-21 01:05:14,900 - WARNING - MongoDB: started at: localhost:27017
+2017-07-21 01:05:15,628 - WARNING - Twitter API: Authentication: Success!
+2017-07-21 01:05:15,629 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-21 01:05:15,631 - WARNING - ----------Resume: Adding Followers ...
+2017-07-21 01:05:15,645 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-21 01:05:23,901 - WARNING - [followers/ids] Sleeping in safe mode for 331 seconds
+2017-07-21 01:10:55,002 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-21 15:14:37,795 - WARNING - ----------New Twitter API Session Opened
+2017-07-21 15:14:37,818 - WARNING - ----------Checking for Depleted Endpoints
+2017-07-21 15:14:37,819 - WARNING - All End Points are clear. Ready to go!
+2017-07-21 15:14:37,831 - WARNING - MongoDB: started at: localhost:27017
+2017-07-21 15:14:39,270 - WARNING - Twitter API: Authentication: Success!
+2017-07-21 15:14:39,272 - WARNING - ----------Resume: Skipping Operation Adding Sources
+2017-07-21 15:14:39,273 - WARNING - ----------Resume: Adding Followers ...
+2017-07-21 15:14:39,318 - WARNING - Adding Followers of source: adafruit in db_name: Arduino Followers count: 128074
+2017-07-21 15:14:44,021 - WARNING - [followers/ids] Sleeping in safe mode for 897 seconds
+2017-07-21 15:29:41,122 - WARNING - [followers/ids] End Point is now clear. Ready to go!
+2017-07-21 16:17:14,145 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-21 17:05:38,608 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-21 18:09:28,175 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-21 18:42:27,823 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-21 20:01:41,056 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-21 20:27:27,123 - WARNING - Done with Adding Followers of source: adafruit in db_name: Arduino
+2017-07-21 20:27:27,123 - WARNING - Adding Followers of source: OfficineArduino in db_name: Arduino Followers count: 1279
+2017-07-21 20:27:27,432 - WARNING - This is OK! "Error message: Twitter API: UserNotFound [followers/ids] Error code: 404 Details: [{u'message': u'Sorry, that page does not exist.', u'code': 34}]"
+2017-07-21 20:27:27,432 - WARNING - Done with Adding Followers of source: OfficineArduino in db_name: Arduino
+2017-07-21 20:27:27,432 - WARNING - Adding Followers of source: arduino_fans in db_name: Arduino Followers count: 6062
+2017-07-21 20:54:55,737 - WARNING - Done with Adding Followers of source: arduino_fans in db_name: Arduino
+2017-07-21 20:54:55,738 - WARNING - Adding Followers of source: ArduinoHandbook in db_name: Arduino Followers count: 5417
+2017-07-21 20:55:09,752 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-21 20:55:13,854 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-21 21:43:50,311 - WARNING - Done with Adding Followers of source: ArduinoHandbook in db_name: Arduino
+2017-07-21 21:43:50,312 - WARNING - Adding Followers of source: mbanzi in db_name: Arduino Followers count: 39917
+2017-07-21 22:56:33,121 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-21 23:44:06,427 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-22 01:44:04,548 - WARNING - This is OK! "Error message: Twitter API: Forbidden [users/show] Error code: 403 Details: [{u'message': u'User has been suspended.', u'code': 63}]"
+2017-07-22 02:30:27,363 - WARNING - Done with Adding Followers of source: mbanzi in db_name: Arduino
+2017-07-22 02:30:27,363 - WARNING - Adding Followers of source: dcuartielles in db_name: Arduino Followers count: 14513

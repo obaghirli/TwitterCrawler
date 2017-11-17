@@ -1,0 +1,97 @@
+{
+    "db_names":[
+        {
+            "Arduino":{
+                "location_frequency":{
+                    "Turkey":[
+                        "1190",
+                        "0.433128901345 %"
+                    ],
+                    "United States":[
+                        "32597",
+                        "11.864456132 %"
+                    ],
+                    "Italy":[
+                        "4450",
+                        "1.61968370671 %"
+                    ],
+                    "Russia":[
+                        "489",
+                        "0.177983220805 %"
+                    ],
+                    "France":[
+                        "4940",
+                        "1.79803090138 %"
+                    ]
+                },
+                "users_with_location":[
+                    "167481",
+                    "60.9587071648 %"
+                ],
+                "total_users_count":"274745"
+            }
+        },
+        {
+            "RaspberryPi":{
+                "location_frequency":{
+                    "Turkey":[
+                        "0",
+                        "0 %"
+                    ],
+                    "United States":[
+                        "0",
+                        "0 %"
+                    ],
+                    "Italy":[
+                        "0",
+                        "0 %"
+                    ],
+                    "Russia":[
+                        "0",
+                        "0 %"
+                    ],
+                    "France":[
+                        "0",
+                        "0 %"
+                    ]
+                },
+                "users_with_location":[
+                    "0",
+                    "0 %"
+                ],
+                "total_users_count":"0"
+            }
+        },
+        {
+            "3DPrinter":{
+                "location_frequency":{
+                    "Turkey":[
+                        "0",
+                        "0 %"
+                    ],
+                    "United States":[
+                        "0",
+                        "0 %"
+                    ],
+                    "Italy":[
+                        "0",
+                        "0 %"
+                    ],
+                    "Russia":[
+                        "0",
+                        "0 %"
+                    ],
+                    "France":[
+                        "0",
+                        "0 %"
+                    ]
+                },
+                "users_with_location":[
+                    "0",
+                    "0 %"
+                ],
+                "total_users_count":"0"
+            }
+        }
+    ]
+}

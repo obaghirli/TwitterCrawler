@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<title>OpenMaker|User</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="/public/css/user_profile.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<script src="/public/js/jquery-3.2.1.min.js"></script>
+
+	</head>
+
+
+
+
+	<body>
+
+		<div class="top-bar" id="top-bar-id">
+			<div class="user-info-container" id="user-info-container-id" >
+
+				<div class="user-id-container" id="user-id-container-id">
+					<p class="user-id" id="user-id-id"> {{username}} </p>	
+				</div>
+
+				<div class="user-initial-container" id="user-initial-container-id">
+					<p class="user-initial" id="user-initial-id">{{userinitials}}</p>
+				</div>
+
+			</div>
+
+			<div class="log-out-button" id="log-out-button-id">
+				<p class="log-out-text" id="log-out-text-id">Log out</p>
+			</div>
+
+		</div>
+
+
+		<form id="fake-log-out-form" action="/logout" method="get" style="display:none;"></form>
+
+		<script>
+
+			$(document).ready( function(){
+
+				$(".log-out-button").click( function(){
+					$("#fake-log-out-form").submit();
+				})
+
+
+			})
+
+		</script>
+
+
+
+	</body>
+
+
+
+
+</html>

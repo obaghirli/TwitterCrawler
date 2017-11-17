@@ -1,0 +1,547 @@
+* {
+    box-sizing: border-box;
+}
+
+input[name="LogInUsername"], input[name="LogInPassword"] {
+    background: white;
+    border: 1px solid #ccd5dc;
+    color: black;
+}
+
+.login-global-container {
+	position: relative;
+	width: 100%;
+	height: 74px;
+	background-color: #757070;
+}
+
+.login-container {
+	position: absolute;
+	width: 62.5%;
+	height:74px;
+	margin-top: 0px;
+	margin-left: 18.75%;
+
+
+	background-color: #dadada;
+
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+img {
+	position: absolute;
+    max-height: 80%;  
+    max-width: 100%; 
+    top: 10px;    
+    left: 0; 
+    margin: auto;
+}
+
+.login-container input#username-box {
+	position: absolute;
+	height: 30px;
+	width: 18%;
+	margin-top: 13px;
+	right: 29.7%;
+	padding-left: 12px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+.login-container input#password-box-log-in {
+	position: absolute;
+	height: 30px;
+	width: 18%;
+	margin-top: 13px;
+	right: 10.8%;
+	padding-left: 12px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+.log-in-button {
+	position: absolute;
+	height: 30px;
+	width: 7.2%;
+	right: 2.61%;
+	margin-top: 13px;
+	display: table;
+	border: 0.5px solid #ccccd6;
+
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+
+	background-color: #fff;
+	opacity: 1;
+
+}
+
+#log-in-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 80%;
+}
+
+.log-in-button:hover {
+	opacity: 0.9;
+}
+
+.log-in-button:active {
+	opacity: 0.9;
+}
+
+.login-error-message {
+	position: absolute;
+	width: 22.5%;
+	height: 20px;
+
+	margin-top: 50px;
+	right: 24.75%;
+
+	display: table;
+	background-color: #dadada;
+
+}
+
+.login-error-message > p{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 80%;
+	font-family: 'Roboto', sans-serif;
+	color: red;
+	font-style: bold;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	opacity: 1;
+}
+
+
+a:link {
+	position: absolute;
+	margin-top:  50px;
+	left: 71.2%;
+    color: #666666;
+    font-size: 90%;
+
+    text-decoration: none;
+}
+
+a:visited {
+    color: #666666;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.register-container>input[type="text"], .register-container>input[type="password"] {
+    background: transparent;
+    border: 1px solid #ccd5dc;
+    color: black;
+}
+
+.register-container {
+	position: relative;
+	width: 36.2%;
+	height: 600px;
+
+	margin-left: 31.9%;
+	margin-top: 70px;
+
+	background-color: #fff;
+}
+
+.into-messages-container {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	margin-top: 0px;
+	margin-left: 0px;
+
+	font-family: 'Roboto', sans-serif;
+  	color: black;
+
+	background-color: #dadada;
+}
+
+#intro-message-1 {
+	position: absolute;
+	margin-top: 7px;
+	width: 100%;
+	font-size: 140%;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+
+}
+
+#intro-message-2 {
+	position: absolute;
+	width: 100%;
+	top: 55%;
+	text-align: center;
+	font-size: 110%;
+	font-family: 'Roboto', sans-serif;
+
+}
+
+#register-header {
+	position: absolute;
+	width: 77.49%;
+	margin-top: 140px;
+	margin-left: 11.51%;
+	padding-left: 2px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	color: black;
+	opacity: 1;
+
+}
+
+
+.register-container input#fname-box {
+	position: absolute;
+	height: 30px;
+	width: 37.87%;
+	margin-left: 11.51%;
+	margin-top: 172px;
+	padding-left: 5px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+.register-container input#lname-box {
+	position: absolute;
+	height: 30px;
+	width: 37.87%;
+	margin-left: 51.36%;
+	margin-top: 172px;
+	padding-left: 5px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+.register-container input#email-box {
+	position: absolute;
+	height: 30px;
+	width: 77.73%;
+	margin-left: 11.51%;
+	margin-top: 217px;
+	padding-left: 5px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+.register-container input#username-box-register {
+	position: absolute;
+	height: 30px;
+	width: 77.73%;
+	margin-left: 11.51%;
+	margin-top: 262px;
+	padding-left: 5px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+.register-container input#password-box-register {
+	position: absolute;
+	height: 30px;
+	width: 77.73%;
+	margin-left: 11.51%;
+	margin-top: 307px;
+	padding-left: 5px;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+}
+
+#register-footer {
+	position: absolute;
+	width: 69.4%;
+	margin-top: 397px;
+	margin-left: 18.48%;
+
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	color: black;
+	opacity: 0.8;
+
+}
+
+.register-button {
+	position: absolute;
+	height: 34px;
+	width: 13.63%;
+	margin-top: 462px;
+	margin-left: 43.63%;
+
+	border: 0.5px solid #ccccd6;
+
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+
+	background-color: #fff;
+	opacity: 0.7;
+
+	display: table;
+
+}
+
+#reg-text {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 80%;
+}
+
+.register-button:hover {
+	opacity: 1;
+}
+
+.register-button:active {
+	opacity: 0.8;
+}
+
+.register-error-message {
+	position: absolute;
+	width: 100%;
+	height: 30px;
+
+	margin-top: 500px;
+	margin-left: 0;
+
+	display: table;
+
+}
+
+.register-error-message > p{
+	height: 30px;
+	width: 100%;
+
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: red;
+	font-style: bold;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	opacity: 1;
+}
+
+
+
+
+
+
+::-webkit-input-placeholder { /* Chrome */
+  color: black;
+  opacity: 0.82;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+  opacity: 0.82;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+  opacity: 0.82;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: black;
+  opacity: 0.82;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+	.login-container {
+		position: absolute;
+		width: 100%;
+		height:350px;
+		margin-top: 0px;
+		margin-left: 0%;
+	}
+
+
+	.login-container input#username-box {
+		position: absolute;
+		height: 50px;
+		width: 90%;
+		margin-top: 150px;
+		right: auto;
+		margin-left: 5%;
+		padding-left: 12px;
+	}
+
+	.login-container input#password-box-log-in {
+		position: absolute;
+		height: 50px;
+		width: 90%;
+		margin-top: 203px;
+		margin-left: 5%;
+		right: auto;
+		padding-left: 12px;
+
+	}
+
+	.log-in-button {
+		position: absolute;
+		height: 50px;
+		width: 30%;
+		right: auto;
+		margin-left: 5%;
+		margin-top: 256px;
+		display: table;
+		border: 0.5px solid #ccccd6;
+	}
+
+	a:link {
+		position: absolute;
+		margin-top:  273px;
+		left: 38%;
+	}
+
+	.login-error-message {
+		position: absolute;
+		width: 90%;
+		height: 20px;
+		margin-top: 310px;
+		right: auto;
+		margin-left: 6%;
+	}
+
+	img {
+		width: 290px;
+		margin-left:3%;
+	}
+
+
+
+
+
+
+	.register-container {
+		width: 100%;
+		margin-top: 300px;
+		margin-left: 0%;
+	}
+
+	#intro-message-2 {
+		font-size: 100%;
+		top: 65%;
+	}
+
+
+	.register-container input#fname-box {
+		position: absolute;
+		height: 50px;
+		width: 37.87%;
+		margin-left: 11.51%;
+		margin-top: 172px;
+		padding-left: 5px;
+
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+	}
+
+	.register-container input#lname-box {
+		position: absolute;
+		height: 50px;
+		width: 37.87%;
+		margin-left: 51.36%;
+		margin-top: 172px;
+		padding-left: 5px;
+
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+	}
+
+	.register-container input#email-box {
+		position: absolute;
+		height: 50px;
+		width: 77.73%;
+		margin-left: 11.51%;
+		margin-top: 225px; 237
+		padding-left: 5px;
+
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+	}
+
+	.register-container input#username-box-register {
+		position: absolute;
+		height: 50px;
+		width: 77.73%;
+		margin-left: 11.51%;
+		margin-top: 278px;
+		padding-left: 5px;
+
+		font-family: 'Roboto', sans-serif;
+		font-size: 15px;
+	}
+
+	.register-container input#password-box-register {
+		position: absolute;
+		height: 50px;
+		width: 77.73%;
+		margin-left: 11.51%;
+		margin-top: 331px;
+	}
+
+	#register-footer {
+		position: absolute;
+		width: 77.73%;
+		margin-top: 397px;
+		margin-left: 11.51%;
+		text-align: center;
+
+	}
+
+	.register-button {
+		position: absolute;
+		height: 50px;
+		width: 30%;
+		margin-top: 462px;
+		margin-left: 35.44%;
+
+	}
+
+
+	.register-error-message {
+		position: absolute;
+		width: 100%;
+		height: 30px;
+		margin-top: 517px;
+		margin-left: 0;
+
+
+	}
+
+}
